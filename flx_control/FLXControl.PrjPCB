@@ -142,6 +142,22 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 
+[Document8]
+DocumentPath=sch\mcu.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+
 [SearchPath1]
 Path=..\..\pbclib\templates\*.*
 IncludeSubFolders=1
@@ -578,16 +594,16 @@ Type100=2
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
-L2=NNWNNNNWWWNWNWNWN
+L2=NNWNNNNWNNNWNWNWN
 L3=NWEENEEEENEWNEEWN
 L4=NNENNNWEENNWNENWN
 L5=NNNNNNNNNNNNNNNNN
 L6=NNENNNNEENNWNENWN
 L7=NNEWNNWEENNWNENWN
 L8=NWEENEENEEENNEENN
-L9=NWEENEEEENEWNEEWW
-L10=NWNNNNNENNEWNNEWN
-L11=NNENNNNEEENWNENWN
+L9=NNEENEEEENNWNEEWW
+L10=NNNNNNNENNEWNNEWN
+L11=NNENNNNENENWNENWN
 L12=WWWWNWWNWWWNWWWNN
 L13=NNNNNNNNNNNWNNNWW
 L14=NWEENEEEENEWNEEWW
@@ -630,6 +646,11 @@ UpdateCurrentModels=1
 [DatabaseUpdateOptions]
 SelectedOnly=0
 PartTypes=0
+
+[ToDoManager]
+ProjectToDo1=Name=buscar y colocar capacitor de 2.2u en el mcu|Owner=Juan I Carrano|Category=sch|UID=HJQKSKXA
+ProjectToDo2=Name=Conectar VDDA|Owner=Juan I Carrano|Category=sch|UID=REPTBQBQ
+ProjectToDo3=Name=Agregar regulador 5v p/ ultrasonido|Owner=Juan I Carrano|Category=sch|UID=JNDXAOTE
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
