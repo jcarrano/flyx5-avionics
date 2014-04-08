@@ -13,6 +13,9 @@ a.out
 # permitimos los pdf?
 # *.pdf
 
+*.LOG
+*.IntLib
+
 .libs
 
 syntax: regexp
