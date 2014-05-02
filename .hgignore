@@ -21,3 +21,4 @@ a.out
 syntax: regexp
 .*\#.*\#$
 .*/History/.*\.[^.]+\.Zip
+.*/__Previews/.*

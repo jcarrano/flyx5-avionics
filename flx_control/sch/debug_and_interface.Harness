@@ -1,0 +1,2 @@
+Debug=LED[0..2],{SERIAL:simple_serial}
+simple_serial=TX,RX
