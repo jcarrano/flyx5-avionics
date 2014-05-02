@@ -1,0 +1,6 @@
+nrf_ctrl=INT,C\S\
+RC=HEIGHT,ROLL,PITCH,YAW,AUX1,AUX2
+SPI_BUS_AUX={SERIAL:spi_serial_lines},S\S\NRF,S\S\SD
+SPI_BUS8=S\S\[0..7],{SERIAL:spi_serial_lines}
+spi_serial_lines=MISO,MOSI,SCK
+ultrasound=PROBE,ECHO

@@ -1,0 +1,2 @@
+i2c=SCL,SDA
+sensor_interrupts=IMU,MAG,ALT
