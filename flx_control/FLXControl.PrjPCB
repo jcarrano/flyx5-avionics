@@ -2,7 +2,7 @@
 Version=1.0
 HierarchyMode=0
 ChannelRoomNamingStyle=0
-OutputPath=
+OutputPath=Project Outputs for FLXControl
 LogFolderPath=
 ReleasesFolder=
 ReleaseVaultGUID=
@@ -317,6 +317,31 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
+
+[Document19]
+DocumentPath=lib\Switch#csv.IntLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+
+[ProjectVariant1]
+Description=Full
+AllowFabrication=0
+ParameterCount=0
+VariationCount=2
+Variation1=Designator=Q?|UniqueId=\MDDPQKTF\DRVIKKFC|Kind=1|AlternatePart= 
+Variation2=Designator=R?|UniqueId=\MDDPQKTF\CIPXSQVD|Kind=1|AlternatePart= 
+ParamVariationCount=0
 
 [SearchPath1]
 Path=lib\*.*

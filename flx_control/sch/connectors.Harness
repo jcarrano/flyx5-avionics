@@ -1,6 +1,8 @@
-nrf_ctrl=INT,C\S\
+ext_debug=BUZZER,BTN[0..1],{SERIAL:simple_serial}
+nrf_ctrl=NRF_SS,NRF_CE,NRF_INT
 RC=HEIGHT,ROLL,PITCH,YAW,AUX1,AUX2
-SPI_BUS_AUX={SERIAL:spi_serial_lines},S\S\NRF,S\S\SD
+simple_serial=TX,RX
+SPI=MOSI,MISO,S\S\,SCK
 SPI_BUS8=S\S\[0..7],{SERIAL:spi_serial_lines}
-spi_serial_lines=MISO,MOSI,SCK
+spi_serial_lines=SCK,MOSI,MISO
 ultrasound=PROBE,ECHO
