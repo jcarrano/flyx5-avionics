@@ -1,5 +1,5 @@
 ext_debug=BUZZER,BTN[0..1],{SERIAL:simple_serial}
-nrf_ctrl=NRF_SS,NRF_CE,NRF_INT
+nrf_ctrl=NRF_CE,NRF_INT,NRF_SS
 RC=HEIGHT,ROLL,PITCH,YAW,AUX1,AUX2
 simple_serial=TX,RX
 SPI=MOSI,MISO,S\S\,SCK
