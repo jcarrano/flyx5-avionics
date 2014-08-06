@@ -22,3 +22,4 @@ syntax: regexp
 .*\#.*\#$
 .*/History/.*\.[^.]+\.Zip
 .*/__Previews/.*
+^[^/]+/out/.*
