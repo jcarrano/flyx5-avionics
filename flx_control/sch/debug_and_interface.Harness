@@ -1,4 +1,4 @@
 Debug=LED[0..2],BTN[0..1],{SERIAL:simple_serial},BUZZER
-ext_debug=BTN[0..1],{SERIAL:simple_serial},BUZZER
+ext_debug={SERIAL:simple_serial},BUZZER
 JTAG/SWD=TMS/SWDIO,TCK/SWCLK,TDO/SWO,TDI
 simple_serial=TX,RX

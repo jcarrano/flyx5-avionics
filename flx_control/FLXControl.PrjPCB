@@ -54,7 +54,7 @@ AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
 AnnotateOrder=3
-DoLibraryUpdate=1
+DoLibraryUpdate=0
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
@@ -102,7 +102,7 @@ AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
 AnnotateOrder=1
-DoLibraryUpdate=0
+DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
@@ -246,7 +246,7 @@ AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
 AnnotateOrder=6
-DoLibraryUpdate=1
+DoLibraryUpdate=0
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
@@ -255,7 +255,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document15]
-DocumentPath=lib\Connector#csv.IntLib
+DocumentPath=lib\Analog_IC#csv.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -271,7 +271,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document16]
-DocumentPath=lib\Discrete#csv.IntLib
+DocumentPath=lib\Connector#csv.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -287,7 +287,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document17]
-DocumentPath=lib\MCU#csv.IntLib
+DocumentPath=lib\Discrete#csv.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -303,7 +303,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document18]
-DocumentPath=lib\Mixed_Signal#csv.IntLib
+DocumentPath=lib\MCU#csv.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -319,7 +319,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document19]
-DocumentPath=lib\Passive#csv.IntLib
+DocumentPath=lib\Mixed_Signal#csv.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -335,7 +335,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document20]
-DocumentPath=lib\Power_IC#csv.IntLib
+DocumentPath=lib\Passive#csv.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -351,7 +351,55 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document21]
+DocumentPath=lib\Power_IC#csv.IntLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+
+[Document22]
 DocumentPath=lib\Switch#csv.IntLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+
+[Document23]
+DocumentPath=lib\PIEZO.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+
+[Document24]
+DocumentPath=lib\TWO_WIRE_HOLE.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -386,6 +434,10 @@ IncludeSubFolders=1
 [Parameter1]
 Name=organization
 Value=Flying Automatons
+
+[Parameter2]
+Name=Revision
+Value=0
 
 [PCBConfiguration1]
 ReleaseItemId=
@@ -425,10 +477,32 @@ OutputDefault2=0
 PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=Letter|PrintScaleMode=1
 OutputType3=Composite
 OutputName3=Composite Drawing
-OutputDocumentPath3=
+OutputDocumentPath3=H:\hardware\quad\avionics\flx_control\pcb\FLX5.PcbDoc
 OutputVariantName3=
 OutputDefault3=0
-PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=Letter|PrintScaleMode=1
+PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.12|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=A4|PrintScaleMode=1
+Configuration3_Name1=OutputConfigurationParameter1
+Configuration3_Item1=PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView
+Configuration3_Name2=OutputConfigurationParameter2
+Configuration3_Item2=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|Index=0|Mirror=False|Name=Multilayer Composite Print|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
+Configuration3_Name3=OutputConfigurationParameter3
+Configuration3_Item3=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopOverlay|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration3_Name4=OutputConfigurationParameter4
+Configuration3_Item4=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=BottomOverlay|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration3_Name5=OutputConfigurationParameter5
+Configuration3_Item5=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration3_Name6=OutputConfigurationParameter6
+Configuration3_Item6=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=BottomLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration3_Name7=OutputConfigurationParameter7
+Configuration3_Item7=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration3_Name8=OutputConfigurationParameter8
+Configuration3_Item8=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration3_Name9=OutputConfigurationParameter9
+Configuration3_Item9=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical14|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration3_Name10=OutputConfigurationParameter10
+Configuration3_Item10=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration3_Name11=OutputConfigurationParameter11
+Configuration3_Item11=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MultiLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
 OutputType4=PCB 3D Print
 OutputName4=PCB 3D Print
 OutputDocumentPath4=
@@ -721,7 +795,7 @@ Type10=1
 Type11=2
 Type12=2
 Type13=2
-Type14=1
+Type14=0
 Type15=1
 Type16=1
 Type17=1
@@ -817,9 +891,9 @@ L4=NNENNNWEENNWNENWN
 L5=NNNNNNNNNNNNNNNNN
 L6=NNENNNNEENNWNENWN
 L7=NNEWNNWEENNWNENWN
-L8=NWEENEENEEENNEENN
+L8=NWEENEENENENNEENN
 L9=NNEENEEEENNWNEEWW
-L10=NNNNNNNENNEWNNEWN
+L10=NNNNNNNNNNEWNNEWN
 L11=NNENNNNENENWNENWN
 L12=WWWWNWWNWWWNWWWNN
 L13=NNNNNNNNNNNWNNNWW
@@ -848,83 +922,83 @@ NetClassManualEnabled=1
 [LibraryUpdateOptions]
 SelectedOnly=0
 PartTypes=0
-ComponentLibIdentifierKind0=Any
-ComponentLibraryIdentifier0=
-ComponentDesignItemID0=x-TI_TPS54232
-ComponentSymbolReference0=x-TI_TPS54232
-ComponentUpdate0=1
+ComponentLibIdentifierKind0=Library Name And Type
+ComponentLibraryIdentifier0=Connector#csv.IntLib
+ComponentDesignItemID0=CONN_EXT_FLX5_OVAL
+ComponentSymbolReference0=CONN_EXT_FLX5_OVAL
+ComponentUpdate0=0
 ComponentIsDeviceSheet0=0
 ComponentLibIdentifierKind1=Library Name And Type
 ComponentLibraryIdentifier1=Connector#csv.IntLib
-ComponentDesignItemID1=CONN_EXT_FLX5_OVAL
-ComponentSymbolReference1=CONN_EXT_FLX5_OVAL
-ComponentUpdate1=1
+ComponentDesignItemID1=CONN_MICRO_SD-4_MOUNT
+ComponentSymbolReference1=CONN_MICRO_SD-4_MOUNT
+ComponentUpdate1=0
 ComponentIsDeviceSheet1=0
 ComponentLibIdentifierKind2=Library Name And Type
 ComponentLibraryIdentifier2=Connector#csv.IntLib
-ComponentDesignItemID2=CONN_MICRO_SD-4_MOUNT
-ComponentSymbolReference2=CONN_MICRO_SD-4_MOUNT
-ComponentUpdate2=1
+ComponentDesignItemID2=HEADER_4x2_100mil_F
+ComponentSymbolReference2=HEADER_4x2_100mil_F
+ComponentUpdate2=0
 ComponentIsDeviceSheet2=0
 ComponentLibIdentifierKind3=Library Name And Type
 ComponentLibraryIdentifier3=Connector#csv.IntLib
-ComponentDesignItemID3=HEADER_4x2_100mil_F
-ComponentSymbolReference3=HEADER_4x2_100mil_F
-ComponentUpdate3=1
+ComponentDesignItemID3=HEADER_5x2_50mil_U
+ComponentSymbolReference3=HEADER_5x2_50mil_U
+ComponentUpdate3=0
 ComponentIsDeviceSheet3=0
 ComponentLibIdentifierKind4=Library Name And Type
 ComponentLibraryIdentifier4=Connector#csv.IntLib
-ComponentDesignItemID4=HEADER_5x2_50mil_U
-ComponentSymbolReference4=HEADER_5x2_50mil_U
-ComponentUpdate4=1
+ComponentDesignItemID4=HEADER_6x1_1.5mm_ZH_TH
+ComponentSymbolReference4=HEADER_6x1_1.5mm_ZH_TH
+ComponentUpdate4=0
 ComponentIsDeviceSheet4=0
 ComponentLibIdentifierKind5=Library Name And Type
 ComponentLibraryIdentifier5=Connector#csv.IntLib
-ComponentDesignItemID5=TESTP_GND_GREEN_1mm
-ComponentSymbolReference5=TESTP_GND_GREEN_1mm
+ComponentDesignItemID5=HEADER_6x1_1.5mm_ZH_TH_Wire
+ComponentSymbolReference5=HEADER_6x1_1.5mm_ZH_TH_Wire
 ComponentUpdate5=0
 ComponentIsDeviceSheet5=0
 ComponentLibIdentifierKind6=Library Name And Type
 ComponentLibraryIdentifier6=Connector#csv.IntLib
-ComponentDesignItemID6=TESTP_PWR_1mm
-ComponentSymbolReference6=TESTP_PWR_1mm
+ComponentDesignItemID6=TESTP_GND_GREEN_1mm
+ComponentSymbolReference6=TESTP_GND_GREEN_1mm
 ComponentUpdate6=0
 ComponentIsDeviceSheet6=0
 ComponentLibIdentifierKind7=Library Name And Type
 ComponentLibraryIdentifier7=Connector#csv.IntLib
-ComponentDesignItemID7=TESTP_SIG_1mm
-ComponentSymbolReference7=TESTP_SIG_1mm
+ComponentDesignItemID7=TESTP_PWR_1mm
+ComponentSymbolReference7=TESTP_PWR_1mm
 ComponentUpdate7=0
 ComponentIsDeviceSheet7=0
 ComponentLibIdentifierKind8=Library Name And Type
-ComponentLibraryIdentifier8=Discrete#csv.IntLib
-ComponentDesignItemID8=B240A
-ComponentSymbolReference8=B240A
+ComponentLibraryIdentifier8=Connector#csv.IntLib
+ComponentDesignItemID8=TESTP_SIG_1mm
+ComponentSymbolReference8=TESTP_SIG_1mm
 ComponentUpdate8=0
 ComponentIsDeviceSheet8=0
 ComponentLibIdentifierKind9=Library Name And Type
 ComponentLibraryIdentifier9=Discrete#csv.IntLib
 ComponentDesignItemID9=LED_GREEN_0603_530
 ComponentSymbolReference9=LED_GREEN_0603_530
-ComponentUpdate9=1
+ComponentUpdate9=0
 ComponentIsDeviceSheet9=0
 ComponentLibIdentifierKind10=Library Name And Type
 ComponentLibraryIdentifier10=Discrete#csv.IntLib
 ComponentDesignItemID10=LED_RED_0603_628
 ComponentSymbolReference10=LED_RED_0603_628
-ComponentUpdate10=1
+ComponentUpdate10=0
 ComponentIsDeviceSheet10=0
 ComponentLibIdentifierKind11=Library Name And Type
 ComponentLibraryIdentifier11=Discrete#csv.IntLib
 ComponentDesignItemID11=LED_YELLOW_0603_587
 ComponentSymbolReference11=LED_YELLOW_0603_587
-ComponentUpdate11=1
+ComponentUpdate11=0
 ComponentIsDeviceSheet11=0
 ComponentLibIdentifierKind12=Library Name And Type
 ComponentLibraryIdentifier12=Discrete#csv.IntLib
 ComponentDesignItemID12=LL4148
 ComponentSymbolReference12=LL4148
-ComponentUpdate12=1
+ComponentUpdate12=0
 ComponentIsDeviceSheet12=0
 ComponentLibIdentifierKind13=Library Name And Type
 ComponentLibraryIdentifier13=Discrete#csv.IntLib
@@ -976,8 +1050,8 @@ ComponentUpdate20=0
 ComponentIsDeviceSheet20=0
 ComponentLibIdentifierKind21=Library Name And Type
 ComponentLibraryIdentifier21=Passive#csv.IntLib
-ComponentDesignItemID21=CAP_18p_0603_50V_NP0_5%
-ComponentSymbolReference21=CAP_18p_0603_50V_NP0_5%
+ComponentDesignItemID21=CAP_15p_0603_50V_NP0_5%
+ComponentSymbolReference21=CAP_15p_0603_50V_NP0_5%
 ComponentUpdate21=0
 ComponentIsDeviceSheet21=0
 ComponentLibIdentifierKind22=Library Name And Type
@@ -988,56 +1062,56 @@ ComponentUpdate22=0
 ComponentIsDeviceSheet22=0
 ComponentLibIdentifierKind23=Library Name And Type
 ComponentLibraryIdentifier23=Passive#csv.IntLib
-ComponentDesignItemID23=CAP_22p_0603_50V_NP0_5%
-ComponentSymbolReference23=CAP_22p_0603_50V_NP0_5%
+ComponentDesignItemID23=CAP_22u_1206_16V_X5R_10%
+ComponentSymbolReference23=CAP_22u_1206_16V_X5R_10%
 ComponentUpdate23=0
 ComponentIsDeviceSheet23=0
 ComponentLibIdentifierKind24=Library Name And Type
 ComponentLibraryIdentifier24=Passive#csv.IntLib
-ComponentDesignItemID24=CAP_330p_0805_100V_NP0_10%
-ComponentSymbolReference24=CAP_330p_0805_100V_NP0_10%
+ComponentDesignItemID24=CAP_680p_0603_50V_NP0_5%
+ComponentSymbolReference24=CAP_680p_0603_50V_NP0_5%
 ComponentUpdate24=0
 ComponentIsDeviceSheet24=0
 ComponentLibIdentifierKind25=Library Name And Type
 ComponentLibraryIdentifier25=Passive#csv.IntLib
-ComponentDesignItemID25=CAP_33u_1206_6V3_X5R_20%
-ComponentSymbolReference25=CAP_33u_1206_6V3_X5R_20%
+ComponentDesignItemID25=FERR_80/100M_0603_600m
+ComponentSymbolReference25=FERR_80/100M_0603_600m
 ComponentUpdate25=0
 ComponentIsDeviceSheet25=0
 ComponentLibIdentifierKind26=Library Name And Type
 ComponentLibraryIdentifier26=Passive#csv.IntLib
-ComponentDesignItemID26=FERR_80/100M_0603_600m
-ComponentSymbolReference26=FERR_80/100M_0603_600m
+ComponentDesignItemID26=IND_2u2_SMD_1A4_20%_3.2x2.5
+ComponentSymbolReference26=IND_2u2_SMD_1A4_20%_3.2x2.5
 ComponentUpdate26=0
 ComponentIsDeviceSheet26=0
 ComponentLibIdentifierKind27=Library Name And Type
 ComponentLibraryIdentifier27=Passive#csv.IntLib
-ComponentDesignItemID27=IND_6u8_SMD_2A3_20%
-ComponentSymbolReference27=IND_6u8_SMD_2A3_20%
+ComponentDesignItemID27=RES_0_0603_0W1_1%
+ComponentSymbolReference27=RES_0_0603_0W1_1%
 ComponentUpdate27=0
 ComponentIsDeviceSheet27=0
 ComponentLibIdentifierKind28=Library Name And Type
 ComponentLibraryIdentifier28=Passive#csv.IntLib
-ComponentDesignItemID28=RES_0_0603_0W1_1%
-ComponentSymbolReference28=RES_0_0603_0W1_1%
+ComponentDesignItemID28=RES_100_0603_0W1_1%
+ComponentSymbolReference28=RES_100_0603_0W1_1%
 ComponentUpdate28=0
 ComponentIsDeviceSheet28=0
 ComponentLibIdentifierKind29=Library Name And Type
 ComponentLibraryIdentifier29=Passive#csv.IntLib
-ComponentDesignItemID29=RES_100_0603_0W1_1%
-ComponentSymbolReference29=RES_100_0603_0W1_1%
-ComponentUpdate29=1
+ComponentDesignItemID29=RES_10K_0603_0W1_1%
+ComponentSymbolReference29=RES_10K_0603_0W1_1%
+ComponentUpdate29=0
 ComponentIsDeviceSheet29=0
 ComponentLibIdentifierKind30=Library Name And Type
 ComponentLibraryIdentifier30=Passive#csv.IntLib
-ComponentDesignItemID30=RES_10K_0603_0W1_1%
-ComponentSymbolReference30=RES_10K_0603_0W1_1%
+ComponentDesignItemID30=RES_118K_0603_0W1_1%
+ComponentSymbolReference30=RES_118K_0603_0W1_1%
 ComponentUpdate30=0
 ComponentIsDeviceSheet30=0
 ComponentLibIdentifierKind31=Library Name And Type
 ComponentLibraryIdentifier31=Passive#csv.IntLib
-ComponentDesignItemID31=RES_118K_0603_0W1_1%
-ComponentSymbolReference31=RES_118K_0603_0W1_1%
+ComponentDesignItemID31=RES_150_0603_0W1_1%
+ComponentSymbolReference31=RES_150_0603_0W1_1%
 ComponentUpdate31=0
 ComponentIsDeviceSheet31=0
 ComponentLibIdentifierKind32=Library Name And Type
@@ -1048,40 +1122,46 @@ ComponentUpdate32=0
 ComponentIsDeviceSheet32=0
 ComponentLibIdentifierKind33=Library Name And Type
 ComponentLibraryIdentifier33=Passive#csv.IntLib
-ComponentDesignItemID33=RES_348K_0603_0W1_1%
-ComponentSymbolReference33=RES_348K_0603_0W1_1%
+ComponentDesignItemID33=RES_3K16_0603_0W1_1%
+ComponentSymbolReference33=RES_3K16_0603_0W1_1%
 ComponentUpdate33=0
 ComponentIsDeviceSheet33=0
 ComponentLibIdentifierKind34=Library Name And Type
 ComponentLibraryIdentifier34=Passive#csv.IntLib
-ComponentDesignItemID34=RES_36K5_0603_0W1_1%
-ComponentSymbolReference34=RES_36K5_0603_0W1_1%
+ComponentDesignItemID34=RES_3K3_0603_0W1_1%
+ComponentSymbolReference34=RES_3K3_0603_0W1_1%
 ComponentUpdate34=0
 ComponentIsDeviceSheet34=0
 ComponentLibIdentifierKind35=Library Name And Type
 ComponentLibraryIdentifier35=Passive#csv.IntLib
-ComponentDesignItemID35=RES_3K16_0603_0W1_1%
-ComponentSymbolReference35=RES_3K16_0603_0W1_1%
+ComponentDesignItemID35=XTAL_20M_SMD_9p
+ComponentSymbolReference35=XTAL_20M_SMD_9p
 ComponentUpdate35=0
 ComponentIsDeviceSheet35=0
 ComponentLibIdentifierKind36=Library Name And Type
-ComponentLibraryIdentifier36=Passive#csv.IntLib
-ComponentDesignItemID36=XTAL_16M_SMD_18p
-ComponentSymbolReference36=XTAL_16M_SMD_18p
+ComponentLibraryIdentifier36=Power_IC#csv.IntLib
+ComponentDesignItemID36=g-LREG_3V3_0A15_EN_SOT753
+ComponentSymbolReference36=g-LREG_3V3_0A15_EN_SOT753
 ComponentUpdate36=0
 ComponentIsDeviceSheet36=0
 ComponentLibIdentifierKind37=Library Name And Type
 ComponentLibraryIdentifier37=Power_IC#csv.IntLib
-ComponentDesignItemID37=g-LREG_5V_0A1
-ComponentSymbolReference37=g-LREG_5V_0A1
+ComponentDesignItemID37=x-TI_TPS62153
+ComponentSymbolReference37=x-TI_TPS62153
 ComponentUpdate37=0
 ComponentIsDeviceSheet37=0
 ComponentLibIdentifierKind38=Library Name And Type
 ComponentLibraryIdentifier38=Switch#csv.IntLib
-ComponentDesignItemID38=SW_TACT_6x6mm_A5_TH
-ComponentSymbolReference38=SW_TACT_6x6mm_A5_TH
-ComponentUpdate38=1
+ComponentDesignItemID38=SW_SLIDE_DPDT_9x3.6mm_S_A2_TH
+ComponentSymbolReference38=SW_SLIDE_DPDT_9x3.6mm_S_A2_TH
+ComponentUpdate38=0
 ComponentIsDeviceSheet38=0
+ComponentLibIdentifierKind39=Library Name And Type
+ComponentLibraryIdentifier39=Switch#csv.IntLib
+ComponentDesignItemID39=SW_TACT_7.1x6.6mm_S_A5_TH
+ComponentSymbolReference39=SW_TACT_7.1x6.6mm_S_A5_TH
+ComponentUpdate39=0
+ComponentIsDeviceSheet39=0
 FullReplace=0
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1121,37 +1201,37 @@ ModelType0=PCBLIB
 ModelName0=CAPC1608L
 ModelUpdate0=1
 ModelType1=PCBLIB
-ModelName1=CAPC2012L
+ModelName1=CAPC3216L
 ModelUpdate1=1
 ModelType2=PCBLIB
-ModelName2=CAPC3216L
+ModelName2=DSO-F2/D3.4
 ModelUpdate2=1
 ModelType3=PCBLIB
-ModelName3=DSO-F2/D3.4
+ModelName3=G-HEADER_4x2I.1P_TH
 ModelUpdate3=1
 ModelType4=PCBLIB
-ModelName4=G-HEADER_4x2I.1P_TH
+ModelName4=G-HEADER_5x2I.05P_SM
 ModelUpdate4=1
 ModelType5=PCBLIB
-ModelName5=G-HEADER_5x2I.05P_SM
+ModelName5=G-PIN_1mm-CIRCLE
 ModelUpdate5=1
 ModelType6=PCBLIB
-ModelName6=G-PIN_1mm-CIRCLE
+ModelName6=G-PIN_1mm-CROSS
 ModelUpdate6=1
 ModelType7=PCBLIB
-ModelName7=G-PIN_1mm-CROSS
+ModelName7=G-SWITCH-M7.1x6.6AS3.25-2T_TH
 ModelUpdate7=1
 ModelType8=PCBLIB
-ModelName8=G-SWITCH-M6x6A5-4T_TH
+ModelName8=HOLE_.4mm_I.05P_OVAL-34
 ModelUpdate8=1
 ModelType9=PCBLIB
-ModelName9=HOLE_.4mm_I.05P_OVAL-34
+ModelName9=INDC1608L
 ModelUpdate9=1
 ModelType10=PCBLIB
-ModelName10=INDC1608L
+ModelName10=JEDEC_MO-178AA
 ModelUpdate10=1
 ModelType11=PCBLIB
-ModelName11=JEDEC_MS-012AA
+ModelName11=JEDEC_MO-220VEED-4
 ModelUpdate11=1
 ModelType12=PCBLIB
 ModelName12=JEDEC_MS-026ACD(D)
@@ -1163,34 +1243,37 @@ ModelType14=PCBLIB
 ModelName14=RESC1608L
 ModelUpdate14=1
 ModelType15=PCBLIB
-ModelName15=SMA
+ModelName15=SOD-80
 ModelUpdate15=1
 ModelType16=PCBLIB
-ModelName16=SOD-80
+ModelName16=SON40P200X200X80-10WL
 ModelUpdate16=1
 ModelType17=PCBLIB
-ModelName17=SON40P200X200X80-10WL
+ModelName17=SOT23-3L
 ModelUpdate17=1
 ModelType18=PCBLIB
-ModelName18=SOT23-3L
+ModelName18=X-CKC_JS202011AQN
 ModelUpdate18=1
 ModelType19=PCBLIB
-ModelName19=X-ABRA_ABLS
+ModelName19=X-EPSO_TSX-3225
 ModelUpdate19=1
 ModelType20=PCBLIB
 ModelName20=x-FREE_2053-01(LGA8)
 ModelUpdate20=1
 ModelType21=PCBLIB
-ModelName21=X-MOLX_472192001
+ModelName21=X-JST-S6B-ZR
 ModelUpdate21=1
 ModelType22=PCBLIB
-ModelName22=X-TAIY-NRS5030
+ModelName22=X-MOLX_472192001
 ModelUpdate22=1
+ModelType23=PCBLIB
+ModelName23=X-TDK_FLF3215
+ModelUpdate23=1
 ModelTypeGroup1=SI
 ModelTypeUpdate1=1
-ModelType23=SI
-ModelName23=Diode
-ModelUpdate23=1
+ModelType24=SI
+ModelName24=Diode
+ModelUpdate24=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
@@ -1198,11 +1281,15 @@ PartTypes=0
 
 [ToDoManager]
 ProjectToDo1=Name=buscar y colocar capacitor de 2.2u en el mcu|Owner=Juan I Carrano|Category=sch|UID=HJQKSKXA
-ProjectToDo2=Name=Conectar VDDA|Owner=Juan I Carrano|Category=sch|UID=REPTBQBQ
+ProjectToDo2=Name=Conectar VDDA|State=1|Owner=Juan I Carrano|Category=sch|UID=REPTBQBQ
 ProjectToDo3=Name=Agregar regulador 5v p/ ultrasonido|State=1|Owner=Juan I Carrano|Category=sch|UID=JNDXAOTE
-ProjectToDo4=Name=Cambiar res pull up i2c por 3k3|Owner=Juan I Carrano|Category=sch|UID=IQIGSDQU
-ProjectToDo5=Name=Agregar conector esc.|Owner=Juan I Carrano|Category=sch|UID=NXOWAVTY
-ProjectToDo6=Name=Cambiar resistencias LED por 68 Ohm|Owner=Juan I Carrano|Category=sch|UID=EEQVXDPF
+ProjectToDo4=Name=Cambiar res pull up i2c por 3k3|State=1|Owner=Juan I Carrano|Category=sch|UID=IQIGSDQU
+ProjectToDo5=Name=Agregar conector esc.|State=1|Owner=Juan I Carrano|Category=sch|UID=NXOWAVTY
+ProjectToDo6=Name=Cambiar resistencias LED por lo que vaya|State=1|Owner=Juan I Carrano|Category=sch|UID=EEQVXDPF
+ProjectToDo7=Name=Cabiar cap oscilador|State=1|Owner=Juan I Carrano|Category=sch|UID=WPRIMUCE
+ProjectToDo8=Name=eliminar 90 grados en pistas de .2mm|Owner=Juan I Carrano|Category=pcb|UID=IAIRIRTI
+ProjectToDo9=Name=Arreglar puntos de pin1|Owner=Juan I Carrano|Category=pcb|UID=RIHVCLNT
+ProjectToDo10=Name=engrosar pistas|Owner=Juan I Carrano|Category=pcb|UID=UBBDCHIE
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
