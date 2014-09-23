@@ -423,18 +423,6 @@ Variation1=Designator=Q?|UniqueId=\MDDPQKTF\DRVIKKFC|Kind=1|AlternatePart=
 Variation2=Designator=R?|UniqueId=\MDDPQKTF\CIPXSQVD|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
-[GeneratedDocument1]
-DocumentPath=out\Generate Files\BOM\BOM-FLXControl(Full).csv
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=out\Generate Files\BOM\LibVerify-FLXControl(Full).xls
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs for FLXControl\Net Status - FLX5.html
-DItemRevisionGUID=
-
 [SearchPath1]
 Path=lib\*.*
 IncludeSubFolders=1
@@ -562,50 +550,52 @@ Name=Fabrication Outputs
 Description=
 TargetPrinter=CutePDF Writer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
-OutputType1=CompositeDrill
-OutputName1=Composite Drill Drawing
+OutputType1=Mask
+OutputName1=Solder/Paste Mask Prints
 OutputDocumentPath1=
-OutputVariantName1=[No Variations]
+OutputVariantName1=
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=Letter|PrintScaleMode=1
-OutputType2=Drill
-OutputName2=Drill Drawing/Guides
+OutputType2=NC Drill
+OutputName2=NC Drill Files
 OutputDocumentPath2=
-OutputVariantName2=[No Variations]
+OutputVariantName2=
 OutputDefault2=0
-PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=Letter|PrintScaleMode=1
-OutputType3=Final
-OutputName3=Final Artwork Prints
+Configuration2_Name1=OutputConfigurationParameter1
+Configuration2_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=4|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressTrailingZeroes
+OutputType3=Plane
+OutputName3=Power-Plane Prints
 OutputDocumentPath3=
-OutputVariantName3=[No Variations]
+OutputVariantName3=
 OutputDefault3=0
 PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=Letter|PrintScaleMode=1
-OutputType4=Gerber
-OutputName4=Gerber Files
+OutputType4=Test Points
+OutputName4=Test Point Report
 OutputDocumentPath4=
-OutputVariantName4=[No Variations]
+OutputVariantName4=
 OutputDefault4=0
-OutputType5=Mask
-OutputName5=Solder/Paste Mask Prints
+OutputType5=CompositeDrill
+OutputName5=Composite Drill Drawing
 OutputDocumentPath5=
-OutputVariantName5=
+OutputVariantName5=[No Variations]
 OutputDefault5=0
 PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=Letter|PrintScaleMode=1
-OutputType6=NC Drill
-OutputName6=NC Drill Files
+OutputType6=Drill
+OutputName6=Drill Drawing/Guides
 OutputDocumentPath6=
-OutputVariantName6=
+OutputVariantName6=[No Variations]
 OutputDefault6=0
-OutputType7=Plane
-OutputName7=Power-Plane Prints
+PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=Letter|PrintScaleMode=1
+OutputType7=Final
+OutputName7=Final Artwork Prints
 OutputDocumentPath7=
-OutputVariantName7=
+OutputVariantName7=[No Variations]
 OutputDefault7=0
 PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=Letter|PrintScaleMode=1
-OutputType8=Test Points
-OutputName8=Test Point Report
+OutputType8=Gerber
+OutputName8=Gerber Files
 OutputDocumentPath8=
-OutputVariantName8=
+OutputVariantName8=[No Variations]
 OutputDefault8=0
 
 [OutputGroup6]
@@ -1367,9 +1357,9 @@ ProjectToDo4=Name=Cambiar res pull up i2c por 3k3|State=1|Owner=Juan I Carrano|C
 ProjectToDo5=Name=Agregar conector esc.|State=1|Owner=Juan I Carrano|Category=sch|UID=NXOWAVTY
 ProjectToDo6=Name=Cambiar resistencias LED por lo que vaya|State=1|Owner=Juan I Carrano|Category=sch|UID=EEQVXDPF
 ProjectToDo7=Name=Cabiar cap oscilador|State=1|Owner=Juan I Carrano|Category=sch|UID=WPRIMUCE
-ProjectToDo8=Name=eliminar 90 grados en pistas de .2mm|Owner=Juan I Carrano|Category=pcb|UID=IAIRIRTI
-ProjectToDo9=Name=Arreglar puntos de pin1|Owner=Juan I Carrano|Category=pcb|UID=RIHVCLNT
-ProjectToDo10=Name=engrosar pistas|Owner=Juan I Carrano|Category=pcb|UID=UBBDCHIE
+ProjectToDo8=Name=eliminar 90 grados en pistas de .2mm|State=1|Owner=Juan I Carrano|Category=pcb|UID=IAIRIRTI
+ProjectToDo9=Name=Arreglar puntos de pin1|State=1|Owner=Juan I Carrano|Category=pcb|UID=RIHVCLNT
+ProjectToDo10=Name=engrosar pistas|State=1|Owner=Juan I Carrano|Category=pcb|UID=UBBDCHIE
 ProjectToDo11=Name=Conectar JTAG a MCU-VDD|State=1|Owner=Juan I Carrano|Category=sch|UID=PYADMECA
 
 [Comparison Options]
