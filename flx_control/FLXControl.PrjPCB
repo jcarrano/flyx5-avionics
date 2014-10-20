@@ -440,12 +440,12 @@ Path=..\..\pbclib\templates\*.*
 IncludeSubFolders=1
 
 [Parameter1]
-Name=organization
-Value=Flying Automatons
+Name=global_revision
+Value=0
 
 [Parameter2]
-Name=Revision
-Value=0
+Name=global_Organization
+Value=Flying Automatons
 
 [Configuration1]
 Name=Default Configuration
