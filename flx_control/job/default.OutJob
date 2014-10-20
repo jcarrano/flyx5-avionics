@@ -55,7 +55,7 @@ Configuration2_Item3=Name=True
 Configuration2_Name4=SortOrder
 Configuration2_Item4=Name=Up
 Configuration2_Name5=VisibleOrder
-Configuration2_Item5=Name=185|Description=244|Designator=262|Quantity=49|Supplier 1=100|Supplier Part Number 1=100
+Configuration2_Item5=Name=185|Description=244|Designator=262|Quantity=49|Supplier 1=100|Supplier Part Number 1=100|Manufacturer=100|Manufacturer Part Number=100
 OutputType3=BOM_PartType
 OutputName3=LibVerify
 OutputCategory3=Report
@@ -178,7 +178,7 @@ OutputEnabled8_OutputMedium3=6
 OutputEnabled8_OutputMedium4=0
 OutputDefault8=0
 Configuration8_Name1=OutputConfigurationParameter1
-Configuration8_Item1=Record=ExportSTEPView|ExportComponentOptions=0|ExportModelsOption=2|ExportHolesOption=0|CanSelectPrimitives=False|IncludeMechanicalPadHoles=False|IncludeElectricalPadHoles=False|ComponentSuffixType=0|ComponentSuffix= 
+Configuration8_Item1=Record=ExportSTEPView|ExportComponentOptions=0|ExportModelsOption=2|ExportHolesOption=0|CanSelectPrimitives=False|IncludeMechanicalPadHoles=False|IncludeElectricalPadHoles=False|ComponentSuffixType=0|ComponentSuffix=
 
 [PublishSettings]
 OutputFilePath2=H:\hardware\quad\avionics\flx_control\out\PDF\
