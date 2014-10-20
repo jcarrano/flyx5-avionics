@@ -1,0 +1,8 @@
+ext_debug={SERIAL:simple_serial},BUZZER
+nrf_ctrl=NRF_CE,NRF_INT,NRF_SS
+RC=HEIGHT,ROLL,PITCH,YAW,AUX1,AUX2
+simple_serial=TX,RX
+SPI=MOSI,MISO,S\S\,SCK
+SPI_BUS8=S\S\[0..7],{SERIAL:spi_serial_lines}
+spi_serial_lines=SCK,MOSI,MISO
+ultrasound=ECHO,PROBE

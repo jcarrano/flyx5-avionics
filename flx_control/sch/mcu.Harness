@@ -1,0 +1,11 @@
+Debug={SERIAL:simple_serial},LED[0..2],BTN[0..1],BUZZER
+i2c=SCL,SDA
+JTAG/SWD=TCK/SWCLK,TMS/SWDIO,TDI,TDO/SWO
+nrf_ctrl=NRF_INT,NRF_CE,NRF_SS
+RC=AUX1,AUX2,HEIGHT,YAW,PITCH,ROLL
+sensor_interrupts=ALT,IMU,MAG
+simple_serial=RX,TX
+SPI=SCK,S\S\,MISO,MOSI
+SPI_BUS8={SERIAL:spi_serial_lines},S\S\[0..7]
+spi_serial_lines=MISO,MOSI,SCK
+ultrasound=PROBE,ECHO

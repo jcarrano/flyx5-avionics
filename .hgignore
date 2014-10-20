@@ -1,0 +1,26 @@
+syntax: glob
+*~
+*.pyc
+*.o
+*.la
+*.lo
+*.gch
+a.out
+*.pfd
+*.elf
+*.test
+
+# permitimos los pdf?
+# *.pdf
+
+*.LOG
+*.IntLib
+
+.libs
+
+syntax: regexp
+.*\#.*\#$
+.*/History/.*\.[^.]+\.Zip
+.*/__Previews/.*
+^[^/]+/out/.*
+^[^/]+/Project Outputs for [^/]+/.*
