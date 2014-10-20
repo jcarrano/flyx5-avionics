@@ -255,38 +255,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document15]
-DocumentPath=lib\PIEZO.SchLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-
-[Document16]
-DocumentPath=lib\TWO_WIRE_HOLE.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-
-[Document17]
 DocumentPath=lib\Analog_IC#csv.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -302,7 +270,7 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 
-[Document18]
+[Document16]
 DocumentPath=lib\Connector#csv.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -318,8 +286,40 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 
-[Document19]
+[Document17]
 DocumentPath=lib\Discrete#csv.IntLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+
+[Document18]
+DocumentPath=lib\Electromechanical#csv.IntLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+
+[Document19]
+DocumentPath=lib\Fiducial#csv.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -424,6 +424,10 @@ Variation2=Designator=R?|UniqueId=\MDDPQKTF\CIPXSQVD|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [GeneratedDocument1]
+DocumentPath=Project Outputs for FLXControl\Design Rule Check - FLX5.html
+DItemRevisionGUID=
+
+[GeneratedDocument2]
 DocumentPath=pcb\FLX5.PcbDoc.htm
 DItemRevisionGUID=
 
