@@ -9,6 +9,7 @@ This is the circuit board for the FlyX5 UAV controller.
 
 Features:
 
+* Compact size: 54.5mm x 45.2mm
 * Builtin buck converter: can be powered directly by batteries and provides 5V up to 1A.
 * 3 Leds, 3 Buttons (2 programmable + reset).
 * Microprocessor: TI Tiva-C (ARM M4F) with hardware floating point support.
@@ -23,7 +24,11 @@ Features:
 * Magnetometer: Freescale MAG3110
 * Altimeter: Freescale MPL3115A2
 * Port for connecting ultrasonic ranger.
+
+Debugging and tinkering:
+
 * JTAG port (can be programmed (and debugged) with a Tiva-C eval board and OpenOCD, no fancy HW required)
+* Way too many testpoints.
 
 ### Errata ###
 
