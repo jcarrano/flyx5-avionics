@@ -2,6 +2,8 @@
 
 This is the circuit board for the FlyX5 UAV controller.
 
+![FlyX5 Revision 0 Board](images/DSC06301.JPG?raw=true "Manufactured board")
+
 ## Main board: flx_control ##
 
 * Flight Stabilization and control.
@@ -24,6 +26,8 @@ Features:
 * Magnetometer: Freescale MAG3110
 * Altimeter: Freescale MPL3115A2
 * Port for connecting ultrasonic ranger.
+
+![3D rendering of PCB](images/top3d-2.png?raw=true "3D rendering of PCB")
 
 Debugging and tinkering:
 
