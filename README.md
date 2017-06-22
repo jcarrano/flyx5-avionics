@@ -1,6 +1,7 @@
 # FlyX5 Hardware #
 
 This is the circuit board for the FlyX5 UAV controller.
+See [here](https://github.com/jcarrano/flyx5-pilot) for the firmware that runs on the controller board.
 
 ![FlyX5 Revision 0 Board](images/DSC06301.JPG?raw=true "Manufactured board")
 
